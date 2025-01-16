@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/28e62964-9ccb-49c1-b4db-c2efa38642dc)
+
 <h1 align="center">dxkku .</h1>
 <h3 align="center">t.me/iddxkku</h3>
 
