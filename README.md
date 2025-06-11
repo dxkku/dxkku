@@ -12,4 +12,4 @@
 [![Discord](https://cdn.discordapp.com/attachments/1360890827697815592/1377957911824830474/Welcome.png?ex=684a040f&is=6848b28f&hm=242ece7bb7c1b252b10e4a8e9d9d6c79cab2e9df8e3114ef08ca6fd1a5001759&)](https://t.me/idxkui)
 
 
-[![Discord](https://cdn.discordapp.com/attachments/1360890827697815592/1377957911824830474/Welcome.png?ex=684a040f&is=6848b28f&hm=242ece7bb7c1b252b10e4a8e9d9d6c79cab2e9df8e3114ef08ca6fd1a5001759&)](https://discord.gg/DDS8ywRdmF)
+[![Discord](https://cdn.discordapp.com/attachments/1360890827697815592/1382176764545204264/images.png?ex=684a33ec&is=6848e26c&hm=d4a1998d5a67c2ceddccb773aec5fc9edb0015990fa833605a93f721157f9c22&)](https://discord.gg/DDS8ywRdmF)
