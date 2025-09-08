@@ -1,6 +1,6 @@
 
 <h1 align="center">dxkku .</h1>
-<h3 align="center">t.me/iddxkku</h3>
+<h3 align="center">t.me/idxkui</h3>
 
 <h3 align="left">                                Discord : @7.2u                                    </h3>
 <p align="left">
