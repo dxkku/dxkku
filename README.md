@@ -12,4 +12,4 @@
 [Telegram](https://t.me/idxkui)
 
 
-[![Discord](https://cdn.discordapp.com/attachments/1360890827697815592/1382176764545204264/images.png?ex=684a33ec&is=6848e26c&hm=d4a1998d5a67c2ceddccb773aec5fc9edb0015990fa833605a93f721157f9c22&)](https://discord.gg/DDS8ywRdmF)
+[![Discord]](https://discord.gg/DDS8ywRdmF)
