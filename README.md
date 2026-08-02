@@ -21,9 +21,9 @@
 
 ### ⚡ Skill Breakdown
 
-*   **🛠️ Systems & Low-Level (Advanced):** Heavy focus on C++, C#, and Java. Experienced in memory manipulation, kernel-level driver execution, and architecting custom matchmaking and core logic for game servers.
-*   **⚙️ Backend & Automation (Strong):** Proficient in Python, JavaScript (Node.js), and Bash/PowerShell. Skilled in third-party API integration, automated deployments, and managing VPS environments.
-*   **🌐 Web & Front-End (Functional):** Capable with HTML5 and web structure for deploying and managing custom platforms and interfaces.
+*   **🛠️ Low-Level Systems:** Focused on C++ and C# for systems engineering, kernel-level driver execution, and memory manipulation.
+*   **⚙️ Backend Servers:** Building robust backend architectures, integrating APIs, and managing VPS environments with Python, JavaScript (Node.js), and Bash/PowerShell.
+*   **☕ Java:** Specifically dedicated to architecting custom core plugins, ranked matchmaking logic, and server mechanics for competitive Minecraft PvP servers.
 
 ### 💻 Languages and Tools
 
