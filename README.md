@@ -12,10 +12,18 @@
 ---
 
 ### 🚀 About Me
-* 🔭 Currently working on custom server environments and automation.
-* 🎮 Passionate about competitive gaming and low-level development.
-* 💬 Ask me about game modifications, server setups, or scripting.
+* 🔭 Currently working on custom server environments, cheat development, and automation.
+* 🎮 Passionate about competitive gaming and low-level systems engineering.
+* 💬 Ask me about memory manipulation, custom core plugins, or server setups.
 * 📫 Reach out directly on Discord: **@7.2u**
+
+---
+
+### ⚡ Skill Breakdown
+
+*   **🛠️ Systems & Low-Level (Advanced):** Heavy focus on C++, C#, and Java. Experienced in memory manipulation, kernel-level driver execution, and architecting custom matchmaking and core logic for game servers.
+*   **⚙️ Backend & Automation (Strong):** Proficient in Python, JavaScript (Node.js), and Bash/PowerShell. Skilled in third-party API integration, automated deployments, and managing VPS environments.
+*   **🌐 Web & Front-End (Functional):** Capable with HTML5 and web structure for deploying and managing custom platforms and interfaces.
 
 ### 💻 Languages and Tools
 
@@ -25,6 +33,9 @@
   </a> 
   <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
+  </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
   </a> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
