@@ -17,20 +17,26 @@
 
 <br/>
 
-### ⚡ About My Work
-* 🔭 Currently engineering **custom server environments**, automation, and **competitive mechanics**.
-* ⚙️ Focused on **kernel-level execution**, memory manipulation, and robust system design.
-* 💻 Managing VPS infrastructures, API integrations, and backend architectures.
-* 📫 Reach out directly on Discord: **@7.2u**
+### ▌ System Overview
+> Engineering robust backend environments and low-level system interactions. Passionate about competitive mechanics, memory manipulation, and automated infrastructure. Reach out directly on Discord via **@7.2u**.
 
 ---
 
-### 🛠️ Core Technologies
+### ▌ Technical Proficiency
+
+| Stack Environment | Core Focus & Execution | Primary Tools |
+| :--- | :--- | :--- |
+| **Low-Level Systems** | Kernel-level driver execution, memory manipulation | C++, C# |
+| **Backend Servers** | Robust architectures, API integration, VPS management | Python, JavaScript, Bash |
+| **Game Infrastructure** | Custom core plugins, ranked matchmaking, server mechanics | Java (Minecraft PvP) |
+
+---
+
+### ▌ Technologies
 
 <div align="center">
   <br/>
   <a href="https://skillicons.dev">
-    <!-- Using a single, clean line of uniform dark-mode icons -->
     <img src="https://skillicons.dev/icons?i=cpp,cs,java,python,js,bash,linux,windows&perline=10&theme=dark" alt="dxkku tech stack" />
   </a>
   <br/><br/>
@@ -38,10 +44,13 @@
 
 ---
 
-### 📊 Live GitHub Activity
+### ▌ Live GitHub Activity
 
 <div align="center">
-  <!-- Dynamic Stats: Make sure to change 'username=dxkku' if your GitHub username is different -->
-  <img src="https://github-readme-stats.vercel.app/api?username=dxkku&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dxkku&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=dxkku&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  </p>
+  <p>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dxkku&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  </p>
 </div>
