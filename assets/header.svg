@@ -6,12 +6,12 @@
       <stop offset="100%" stop-color="#0E1520"/>
     </linearGradient>
     <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="cyanglow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
-      <feComponentTransfer in="blur" result="cb">
+    <filter id="cg" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feComponentTransfer in="b" result="cb">
         <feFuncR type="linear" slope="0"/>
         <feFuncG type="linear" slope="0.83"/>
         <feFuncB type="linear" slope="1"/>
@@ -21,30 +21,96 @@
     <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="0.7" fill="#00D4FF" opacity="0.06"/>
     </pattern>
+
+    <!--
+      30s cycle. 6 texts × 5s each.
+      Per text: type=1.4s  hold=2.5s  delete=0.8s  gap=0.3s
+      Char width ≈ 8px (Courier New 13px monospace)
+
+      Text widths:
+        1. "Systems Engineer"       16ch = 128px
+        2. "Low-Level Development"  21ch = 168px
+        3. "Memory Manipulation"    19ch = 152px
+        4. "Backend Infrastructure" 22ch = 176px
+        5. "Kernel Driver Dev"      17ch = 136px
+        6. "Game Infrastructure"    19ch = 152px
+
+      Window keyTimes (fraction of 30s):
+        k0: 0      → 0.047 → 0.13 → 0.157 → 0.167
+        k1: 0.167  → 0.213 → 0.297→ 0.323 → 0.333
+        k2: 0.333  → 0.380 → 0.463→ 0.490 → 0.500
+        k3: 0.500  → 0.547 → 0.630→ 0.657 → 0.667
+        k4: 0.667  → 0.713 → 0.797→ 0.823 → 0.833
+        k5: 0.833  → 0.880 → 0.963→ 0.990 → 1.000
+    -->
+
+    <!-- Clip path 1 — "Systems Engineer" 128px -->
+    <clipPath id="c1">
+      <rect x="50" y="87" height="22" width="0">
+        <animate attributeName="width" calcMode="linear"
+          values="0;128;128;0;0;0"
+          keyTimes="0;0.047;0.13;0.157;0.167;1"
+          dur="30s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <!-- Clip path 2 — "Low-Level Development" 168px -->
+    <clipPath id="c2">
+      <rect x="50" y="87" height="22" width="0">
+        <animate attributeName="width" calcMode="linear"
+          values="0;0;168;168;0;0;0"
+          keyTimes="0;0.167;0.213;0.297;0.323;0.333;1"
+          dur="30s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <!-- Clip path 3 — "Memory Manipulation" 152px -->
+    <clipPath id="c3">
+      <rect x="50" y="87" height="22" width="0">
+        <animate attributeName="width" calcMode="linear"
+          values="0;0;152;152;0;0;0"
+          keyTimes="0;0.333;0.380;0.463;0.490;0.500;1"
+          dur="30s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <!-- Clip path 4 — "Backend Infrastructure" 176px -->
+    <clipPath id="c4">
+      <rect x="50" y="87" height="22" width="0">
+        <animate attributeName="width" calcMode="linear"
+          values="0;0;176;176;0;0;0"
+          keyTimes="0;0.500;0.547;0.630;0.657;0.667;1"
+          dur="30s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <!-- Clip path 5 — "Kernel Driver Dev" 136px -->
+    <clipPath id="c5">
+      <rect x="50" y="87" height="22" width="0">
+        <animate attributeName="width" calcMode="linear"
+          values="0;0;136;136;0;0;0"
+          keyTimes="0;0.667;0.713;0.797;0.823;0.833;1"
+          dur="30s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <!-- Clip path 6 — "Game Infrastructure" 152px -->
+    <clipPath id="c6">
+      <rect x="50" y="87" height="22" width="0">
+        <animate attributeName="width" calcMode="linear"
+          values="0;0;152;152;0;0"
+          keyTimes="0;0.833;0.880;0.963;0.990;1"
+          dur="30s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
     <style>
-      .sub { opacity: 0; }
-      .s1  { animation: cyc 18s infinite 0s; }
-      .s2  { animation: cyc 18s infinite 3s; }
-      .s3  { animation: cyc 18s infinite 6s; }
-      .s4  { animation: cyc 18s infinite 9s; }
-      .s5  { animation: cyc 18s infinite 12s; }
-      .s6  { animation: cyc 18s infinite 15s; }
-      @keyframes cyc {
-        0%,2%,19%,100% { opacity:0; }
-        5%,16%          { opacity:1; }
-      }
-      .cur    { animation: blink 1s step-end infinite; }
-      @keyframes blink { 50% { opacity:0; } }
+      .cur    { animation: blink 0.55s step-end infinite; }
+      @keyframes blink { 50%{opacity:0;} }
       .livdot { animation: pdot 2.4s ease-in-out infinite; }
-      @keyframes pdot {
-        0%,100% { opacity:.6; }
-        50%     { opacity:1; }
-      }
-      .dec { animation: dfade 5s ease-in-out infinite alternate; }
-      @keyframes dfade {
-        0%   { opacity:.04; }
-        100% { opacity:.09; }
-      }
+      @keyframes pdot { 0%,100%{opacity:.55;} 50%{opacity:1;} }
+      .dec    { animation: dfade 5s ease-in-out infinite alternate; }
+      @keyframes dfade { 0%{opacity:.04;} 100%{opacity:.09;} }
     </style>
   </defs>
 
@@ -52,7 +118,7 @@
   <rect width="854" height="170" fill="url(#bg)"/>
   <rect width="854" height="170" fill="url(#dots)"/>
 
-  <!-- Decorative right-side code (faint) -->
+  <!-- Decorative right-side faint code -->
   <g class="dec" font-family="'Courier New',Courier,monospace" font-size="11" fill="#00D4FF" text-anchor="end">
     <text x="840" y="36">0xC0DE0000</text>
     <text x="840" y="52">0x7FFE4B2A</text>
@@ -65,7 +131,7 @@
   </g>
 
   <!-- Left accent bar -->
-  <rect x="0" y="0" width="3" height="170" fill="#00D4FF" opacity="0.65" filter="url(#cyanglow)"/>
+  <rect x="0" y="0" width="3" height="170" fill="#00D4FF" opacity="0.65" filter="url(#cg)"/>
 
   <!-- Borders -->
   <line x1="3" y1="0.5"   x2="854" y2="0.5"   stroke="#1C2330" stroke-width="1"/>
@@ -77,19 +143,40 @@
   <!-- Name -->
   <text x="90" y="68" font-family="'Courier New',Courier,monospace" font-size="44" font-weight="bold" fill="#E2EAF4" filter="url(#glow)">dxkku</text>
 
-  <!-- Prompt arrow -->
+  <!-- Prompt -->
   <text x="32" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#2A3A4E">&#x276F;</text>
 
-  <!-- Cycling subtitle — each on the same position, only one visible at a time -->
-  <text class="sub s1" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cyanglow)">Systems Engineer</text>
-  <text class="sub s2" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cyanglow)">Low-Level Development</text>
-  <text class="sub s3" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cyanglow)">Memory Manipulation</text>
-  <text class="sub s4" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cyanglow)">Backend Infrastructure</text>
-  <text class="sub s5" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cyanglow)">Kernel Driver Dev</text>
-  <text class="sub s6" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cyanglow)">Game Infrastructure</text>
+  <!-- Typewriter texts — each clipped independently, each at same x/y -->
+  <text clip-path="url(#c1)" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cg)">Systems Engineer</text>
+  <text clip-path="url(#c2)" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cg)">Low-Level Development</text>
+  <text clip-path="url(#c3)" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cg)">Memory Manipulation</text>
+  <text clip-path="url(#c4)" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cg)">Backend Infrastructure</text>
+  <text clip-path="url(#c5)" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cg)">Kernel Driver Dev</text>
+  <text clip-path="url(#c6)" x="50" y="104" font-family="'Courier New',Courier,monospace" font-size="13" fill="#00D4FF" filter="url(#cg)">Game Infrastructure</text>
 
-  <!-- Blinking cursor -->
-  <rect class="cur" x="50" y="89" width="8" height="16" fill="#00D4FF" rx="1" opacity="0.85"/>
+  <!--
+    Cursor — thin vertical bar that tracks the rightmost visible character.
+    x = 50 + currentClipWidth for whichever text is active.
+    Combined keyTimes/values cover all 6 windows in sequence.
+  -->
+  <rect class="cur" y="90" width="2" height="15" fill="#00D4FF" rx="1">
+    <animate attributeName="x" calcMode="linear"
+      values="
+        50;178;178;50;50;
+        218;218;50;50;
+        202;202;50;50;
+        226;226;50;50;
+        186;186;50;50;
+        202;202;50;50"
+      keyTimes="
+        0;0.047;0.13;0.157;0.167;
+        0.213;0.297;0.323;0.333;
+        0.380;0.463;0.490;0.500;
+        0.547;0.630;0.657;0.667;
+        0.713;0.797;0.823;0.833;
+        0.880;0.963;0.990;1"
+      dur="30s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Divider -->
   <line x1="32" y1="122" x2="440" y2="122" stroke="#1C2330" stroke-width="1"/>
