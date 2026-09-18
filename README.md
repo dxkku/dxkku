@@ -29,10 +29,6 @@ discord: @7.2u   # fastest response
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dxkku&theme=react-dark&bg_color=07090F&color=00D4FF&line=00D4FF&point=00FF88&area=true&area_color=00D4FF&hide_border=true" width="100%"/>
-
-<br/>
-
 ### `// technical proficiency`
 
 <table width="100%">
@@ -41,14 +37,12 @@ discord: @7.2u   # fastest response
 <br/>
 
 **`⬡ Low-Level Systems`**
-
 ```
 Kernel driver execution
 Memory manipulation
 Hooking techniques
 WinAPI / NTAPI internals
 ```
-
 ![C++](https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=cplusplus&logoColor=00D4FF)
 ![C#](https://img.shields.io/badge/C%23-0D1117?style=flat-square&logo=csharp&logoColor=00D4FF)
 ![MASM](https://img.shields.io/badge/MASM-0D1117?style=flat-square&logoColor=00D4FF)
@@ -60,14 +54,12 @@ WinAPI / NTAPI internals
 <br/>
 
 **`⬡ Backend Servers`**
-
 ```
 Robust architectures
 REST API integration
 VPS management
 Automation pipelines
 ```
-
 ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00FF88)
 ![JavaScript](https://img.shields.io/badge/JS-0D1117?style=flat-square&logo=javascript&logoColor=00FF88)
 ![Bash](https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=00FF88)
@@ -78,14 +70,12 @@ Automation pipelines
 <br/>
 
 **`⬡ Game Infrastructure`**
-
 ```
 Custom core plugins
 Ranked matchmaking
 Server mechanics
 Competitive pvp systems
 ```
-
 ![Java](https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=FFB347)
 ![Spigot](https://img.shields.io/badge/Spigot-0D1117?style=flat-square&logoColor=FFB347)
 
@@ -107,8 +97,12 @@ Competitive pvp systems
 ### `// live activity`
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=dxkku&show_icons=true&theme=github_dark&hide_border=true&bg_color=07090F&title_color=00D4FF&icon_color=00FF88&text_color=8895A7&ring_color=00D4FF"/>
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=dxkku&theme=github-dark-blue&hide_border=true&background=07090F&ring=00D4FF&fire=00FF88&currStreakLabel=00D4FF&sideLabels=8895A7&dates=556070"/>
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=dxkku&show_icons=true&theme=github_dark&hide_border=true&bg_color=07090F&title_color=00D4FF&icon_color=00FF88&text_color=8895A7&ring_color=00D4FF"/>
+  <img height="155" src="https://github-readme-streak-stats.herokuapp.com/?user=dxkku&theme=github-dark-blue&hide_border=true&background=07090F&ring=00D4FF&fire=00FF88&currStreakLabel=00D4FF&sideLabels=8895A7&dates=556070"/>
+</div>
+
+<div align="center">
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dxkku&layout=compact&theme=github_dark&hide_border=true&bg_color=07090F&title_color=00D4FF&text_color=8895A7&langs_count=6"/>
 </div>
 
 <br/>
