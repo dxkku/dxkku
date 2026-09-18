@@ -100,10 +100,6 @@ Competitive pvp systems
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dxkku&theme=github-dark-blue&hide_border=true&background=07090F&ring=00D4FF&fire=00FF88&currStreakLabel=00D4FF&sideLabels=8895A7&dates=556070&stroke=1C2330"/>
 </div>
 
-<div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=dxkku&show_icons=true&theme=github_dark&hide_border=true&bg_color=07090F&title_color=00D4FF&icon_color=00FF88&text_color=8895A7&cache_seconds=86400"/>
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dxkku&layout=compact&theme=github_dark&hide_border=true&bg_color=07090F&title_color=00D4FF&text_color=8895A7&langs_count=6&cache_seconds=86400"/>
-</div>
 
 <br/>
 
